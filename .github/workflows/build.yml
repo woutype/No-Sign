@@ -1,4 +1,4 @@
-name: Build RyukSign IPA
+name: Build No-Sign IPA
 
 on:
   push:
@@ -41,6 +41,7 @@ jobs:
         run: |
           agvtool new-version -all "$(git rev-parse HEAD)"
           make
+          mv packages/RyukSign.ipa packages/No-Sign.ipa
           ls -lh packages/
 
       - name: Extract app version and metadata
@@ -63,8 +64,8 @@ jobs:
       - name: Upload IPA Artifact
         uses: actions/upload-artifact@v4
         with:
-          name: RyukSign-${{ env.VERSION }}-${{ env.SHORT_SHA }}
-          path: packages/*.ipa
+          name: No-Sign-${{ env.VERSION }}-${{ env.SHORT_SHA }}
+          path: packages/No-Sign.ipa
           if-no-files-found: error
           retention-days: 30
 
@@ -72,10 +73,10 @@ jobs:
         if: startsWith(github.ref, 'refs/tags/v') || inputs.create_release == true
         uses: softprops/action-gh-release@v2
         with:
-          name: RyukSign ${{ env.RELEASE_TAG }}
+          name: No-Sign ${{ env.RELEASE_TAG }}
           tag_name: ${{ env.RELEASE_TAG }}
           files: |
-            packages/*.ipa
+            packages/No-Sign.ipa
           generate_release_notes: true
           fail_on_unmatched_files: true
           draft: false

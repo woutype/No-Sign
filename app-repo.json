@@ -10,7 +10,7 @@
   "apps": [
     {
       "name": "RyukSign",
-      "bundleIdentifier": "ryuk2.anoxclan.com",
+      "bundleIdentifier": "com.woutype.nosign",
       "developerName": "faroukbmiled",
       "subtitle": "On-device iOS app signer and installer.",
       "localizedDescription": "RyukSign is an on-device app signer and installer for iOS, derived from Feather (by claration). Sign and install apps with a .p12 / .mobileprovision pair, manage tweaks (.dylib/.deb/.framework/.bundle/.appex), transfer files over HTTP/WebDAV, and track app updates — entirely on-device.",

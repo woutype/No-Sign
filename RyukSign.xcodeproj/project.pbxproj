@@ -627,7 +627,7 @@
 				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = RyukSign/Resources/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = RyukSign;
+				INFOPLIST_KEY_CFBundleDisplayName = "No-Sign";
 				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright (c) 2024 Samara M";
 				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "RyukSign uses your local network to transfer IPAs and tweaks to this device over the Web Manager server.";
@@ -652,7 +652,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 15.2;
 				MARKETING_VERSION = 4.1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ryuk2.anoxclan.com;
+				PRODUCT_BUNDLE_IDENTIFIER = com.woutype.nosign;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "@all devices dist";
@@ -696,7 +696,7 @@
 				GCC_PREPROCESSOR_DEFINITIONS = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = RyukSign/Resources/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = RyukSign;
+				INFOPLIST_KEY_CFBundleDisplayName = "No-Sign";
 				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright (c) 2024 Samara M";
 				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "RyukSign uses your local network to transfer IPAs and tweaks to this device over the Web Manager server.";
@@ -721,7 +721,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 15.2;
 				MARKETING_VERSION = 4.1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ryuk2.anoxclan.com;
+				PRODUCT_BUNDLE_IDENTIFIER = com.woutype.nosign;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "@all devices dist";
@@ -829,7 +829,7 @@
 				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = RyukSign/Resources/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = RyukSign;
+				INFOPLIST_KEY_CFBundleDisplayName = "No-Sign";
 				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright (c) 2024 Samara M";
 				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "RyukSign uses your local network to transfer IPAs and tweaks to this device over the Web Manager server.";
@@ -854,7 +854,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 15.2;
 				MARKETING_VERSION = 4.1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ryuk2.anoxclan.com;
+				PRODUCT_BUNDLE_IDENTIFIER = com.woutype.nosign;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "@all devices dist";
@@ -888,7 +888,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = thewonderofyou.RyukSignTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.woutype.nosign.Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
@@ -978,7 +978,7 @@
 				GCC_PREPROCESSOR_DEFINITIONS = "APPSTORE=1";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = RyukSign/Resources/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = RyukSign;
+				INFOPLIST_KEY_CFBundleDisplayName = "No-Sign";
 				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright (c) 2024 Samara M";
 				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "RyukSign uses your local network to transfer IPAs and tweaks to this device over the Web Manager server.";
@@ -1003,7 +1003,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 15.2;
 				MARKETING_VERSION = 4.1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ryuk2.anoxclan.com;
+				PRODUCT_BUNDLE_IDENTIFIER = com.woutype.nosign;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "@all devices dist";
@@ -1036,7 +1036,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = thewonderofyou.RyukSignTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.woutype.nosign.Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
@@ -1072,7 +1072,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 4.1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ryuk2.anoxclan.com.FeatherWidgetExtension;
+				PRODUCT_BUNDLE_IDENTIFIER = com.woutype.nosign.FeatherWidgetExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "ryuksign widget";
@@ -1113,7 +1113,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 4.1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ryuk2.anoxclan.com.FeatherWidgetExtension;
+				PRODUCT_BUNDLE_IDENTIFIER = com.woutype.nosign.FeatherWidgetExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "ryuksign widget";
@@ -1154,7 +1154,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 4.1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ryuk2.anoxclan.com.FeatherWidgetExtension;
+				PRODUCT_BUNDLE_IDENTIFIER = com.woutype.nosign.FeatherWidgetExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "ryuksign widget";
@@ -1196,7 +1196,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 4.1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ryuk2.anoxclan.com.FeatherWidgetExtension;
+				PRODUCT_BUNDLE_IDENTIFIER = com.woutype.nosign.FeatherWidgetExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "ryuksign widget";
@@ -1228,7 +1228,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = thewonderofyou.RyukSignTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.woutype.nosign.Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
@@ -1253,7 +1253,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = thewonderofyou.RyukSignTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.woutype.nosign.Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
